@@ -8,15 +8,15 @@ import mysql.connector # For database interaction
 
 # --- Configuration ---
 # !! IMPORTANT: REPLACE THESE WITH YOUR ACTUAL VALUES !!
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # Same token as in api.php
-WEB_APP_URL = "YOUR_WEB_APP_URL"  # e.g., https://yourdomain.com/AuizAarnBot/ or http://t.me/AuizAarnBot/aarn (if using TG direct)
+BOT_TOKEN = "7135996140:AAFvSLelXhSSaG0O_1n78P7ymY3Br4Uspxs"  # Same token as in api.php
+WEB_APP_URL = "http://t.me/AuizAarnBot/aarn"  # e.g., https://yourdomain.com/AuizAarnBot/ or http://t.me/AuizAarnBot/aarn (if using TG direct)
                                      # Ensure this matches what you set in BotFather for your web app
 
 # Database Configuration (from InfinityFree)
-DB_HOST = "YOUR_DB_SERVER" # e.g., sqlXXX.infinityfree.com
-DB_USER = "YOUR_DB_USERNAME" # e.g., if0_39073218
-DB_PASSWORD = "YOUR_DB_PASSWORD"
-DB_NAME = "YOUR_DB_NAME" # e.g., if0_39073218_auizaarnbot_db
+DB_HOST = "sql203.infinityfree.com" # e.g., sqlXXX.infinityfree.com
+DB_USER = "if0_39073218" # e.g., if0_39073218
+DB_PASSWORD = "Art454500"
+DB_NAME = "if0_39073218_auizaarnbot_db" # e.g., if0_39073218_auizaarnbot_db
 
 # Setup logging
 logging.basicConfig(
