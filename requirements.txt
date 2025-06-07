@@ -1,0 +1,3 @@
+python-telegram-bot==20.8  # Or a more recent 20.x version. Avoid v13 for new projects.
+mysql-connector-python     # For connecting to your InfinityFree MySQL database
+requests                   # For potential HTTP requests if needed (though not heavily used here)
