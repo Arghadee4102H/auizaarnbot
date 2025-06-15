@@ -16,9 +16,9 @@ from firebase_admin import credentials, db
 
 # --- Configuration ---
 # Load from environment variables for security and flexibility
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-WEBAPP_URL = os.getenv("WEBAPP_URL") # Your GitHub Pages URL
-RENDER_URL = os.getenv("RENDER_EXTERNAL_URL") # Provided by Render
+BOT_TOKEN = os.getenv("7574646011:AAEpTfy1JJHvFBNLgu7mMb-rAmp3bA-DBEY")
+WEBAPP_URL = os.getenv("https://arghadee4102h.github.io/AuizAarnBot/") # Your GitHub Pages URL
+RENDER_URL = os.getenv("https://auizaarnbot-u1vf.onrender.com") # Provided by Render
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
