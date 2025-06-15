@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // !!! IMPORTANT: PASTE YOUR FIREBASE CONFIGURATION HERE !!!
     const firebaseConfig = {
-        apiKey: "YOUR_API_KEY",
-        authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-        databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-        projectId: "YOUR_PROJECT_ID",
-        storageBucket: "YOUR_PROJECT_ID.appspot.com",
-        messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-        appId: "YOUR_APP_ID"
+        apiKey: "AIzaSyBInsXIdEW-SMdV3P4VftpCOu2z6_3xuFc",
+        authDomain: "auiz-aarn-bot.firebaseapp.com",
+        databaseURL: "https://auiz-aarn-bot-default-rtdb.firebaseio.com",
+        projectId: "auiz-aarn-bot",
+        storageBucket: "auiz-aarn-bot.firebasestorage.app",
+        messagingSenderId: "504155433111",
+        appId: "1:504155433111:web:50f7c5e0d65d318a47e1d2"
     };
 
     firebase.initializeApp(firebaseConfig);
